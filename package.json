@@ -1,7 +1,7 @@
 {
   "name": "starwars_checks",
   "version": "1.0.0",
-  "description": "",
+  "description": "==========",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,23 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^2.5.3",
-    "request": "^2.74.0",
+    "request": "^2.81.0",
     "should": "^10.0.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "request": "^2.81.0",
+    "should": "^10.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/therollingtester/mocha-starwars-apitests.git"
+  },
+  "bugs": {
+    "url": "https://github.com/therollingtester/mocha-starwars-apitests/issues"
+  },
+  "homepage": "https://github.com/therollingtester/mocha-starwars-apitests#readme"
 }
